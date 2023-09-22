@@ -4,6 +4,7 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #007EE0;
  
     
 }
@@ -33,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #007EE0;
+    background-color: #7F7F7F;
 }
 
 nav ul ul {
@@ -43,6 +44,8 @@ nav ul ul {
     left: 0; 
     background-color: #007EE0; 
     z-index: 1; 
+    border: 2px solid #000000; 
+
 }
 
 nav li:hover > ul {
@@ -62,4 +65,22 @@ nav ul ul a {
 
 nav ul ul a:hover {
     background-color: #7F7F7F; 
+}
+
+nav li::before,
+nav li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; 
+    background-color: #000000; 
+}
+
+nav li::before {
+    left: -10px; 
+}
+
+nav li::after {
+    right: -10px; 
 }
