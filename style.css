@@ -1,6 +1,19 @@
-
 h1 {
     color: #007EE0;
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 5; 
+}
+
+h2 {
+    color: #000000;
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
 }
 
 .first-paragraph::first-letter {
@@ -18,3 +31,12 @@ p:not(.first-paragraph) {
 main {
     border: none;
 }
+
+.circle-image {
+    display: block;
+    margin: 0 auto; 
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+}
+
