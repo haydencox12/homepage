@@ -1,4 +1,8 @@
 
+header {
+
+    font-family: 'Sans-Serif', sans-serif; /* Use Sans-Serif font */
+}
 h1 {
     color: #007EE0;
     text-align: center; 
@@ -39,5 +43,13 @@ main {
     border-radius: 50%; 
     width: 150px; 
     height: 150px; 
+}
+
+footer {
+    text-align: left;
+    background-color: #007EE0;
+    color: white;
+    padding: 5px;
+    font-family: 'Sans-Serif', sans-serif; 
 }
 
