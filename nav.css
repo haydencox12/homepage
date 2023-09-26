@@ -84,3 +84,12 @@ nav li::before {
 nav li::after {
     right: -10px; 
 }
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+    }
+    .menu-toggle {
+      display: block; 
+    }
+  }
