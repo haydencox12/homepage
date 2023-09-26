@@ -1,7 +1,6 @@
-
 header {
 
-    font-family: 'Sans-Serif', sans-serif; /* Use Sans-Serif font */
+    font-family: 'Sans-Serif', sans-serif; 
 }
 h1 {
     color: #007EE0;
@@ -45,6 +44,7 @@ main {
     height: 150px; 
 }
 
+
 footer {
     text-align: left;
     background-color: #007EE0;
@@ -53,3 +53,15 @@ footer {
     font-family: 'Sans-Serif', sans-serif; 
 }
 
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+
+@media screen and (max-width: 768px) {
+    img {
+      max-width: 100%; 
+    }
+  }
