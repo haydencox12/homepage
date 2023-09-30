@@ -77,4 +77,14 @@ video {
     height: auto;
 }
 
+@media print {
+    p, ul, ol, blockquote, footer {
+        color: black; 
+        font-family: serif; 
+    }
+
+    body {
+        margin: 1in;
+    }
+}
 
