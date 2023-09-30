@@ -47,10 +47,14 @@ main {
 
 footer {
     text-align: left;
-    background-color: #007EE0;
-    color: white;
     padding: 5px;
     font-family: 'Sans-Serif', sans-serif; 
+    background-image: url('footerbg.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: white; 
+   
 }
 
 .container {
@@ -87,4 +91,3 @@ video {
         margin: 1in;
     }
 }
-
