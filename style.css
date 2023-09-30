@@ -91,3 +91,13 @@ video {
         margin: 1in;
     }
 }
+
+.footer-icon {
+    transition: transform 0.3s; 
+}
+
+
+.footer-icon:hover {
+    transform: scale(1.2); 
+}
+
