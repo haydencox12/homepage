@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Template</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="nav.css">
 </head>
@@ -14,9 +14,9 @@
             <li><a href="about.html">About</a></li>
             <li><a href="project.html">Projects</a>
                 <ul>
-                    <li><a href="#">Link 1</a></li> 
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#project1">Database Project</a></li> 
+                    <li><a href="#project2">UNIX OS Project</a></li>
+                    <li><a href="#project3">Motion Graphic Project</a></li>
                 </ul>
             </li>
             <li><a href="reflection.html">Reflection</a></li>
@@ -29,12 +29,59 @@
 
     <!-- Main Content Section -->
     <main>
-        
+            <!-- Project 1 -->
+            <section id="project1">
+                <h2>Project 1</h2>
+                <p>For my Database Systems and Applications class, I developed a database management application that provides a user-friendly interface for interacting with the database I was provided. The application supports all basic CRUD (Create, Read, Update, Delete) operations, allowing users to easily add new data to the database, read and retrieve existing data, update or modify data, and delete data as needed. This is achieved through a straightforward interface that guides the user through each operation step by step.
+                    It can connect to any database with some modifications, making it a versatile tool for managing a wide range of data types and structures. 
+                    The project  also includes error handling. 
+                    Overall, this project demonstrates my solid understanding of database systems and applications.</p>
+                <div class="project1-images">
+                    <figure>
+                        <img src="project1a.PNG" alt="Description of image 1">
+                        <figcaption>This shows the project adding a job to the database. The user has a choice on job ID, job title, minimum and maximum salary. The program will then add the job to the database</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="project 1b.PNG" alt="Description of image 2">
+                        <figcaption>This shows the project updating a current empolyee's first and last name. This is done by entering in the empolyee's ID</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="project1c.PNG" alt="Description of image 3">
+                        <figcaption>This shows off the different options for the read data prompt. It allows the user to view things such as view manager count by department and view average salary by job title </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <!-- Project 2 -->
+            <section id="project2">
+            <h2>Project 2</h2>
+            <p> For my UNIX Operating System class, I made a step-by-step manual on how to install the Arch Linux OS using a USB boot device. This method works with any computer.
+                Overall, this project demonstrates my solid understanding of UNIX operating systems and how to install it... <strong> &darr; The step-by-step manual is linked below in a PDF form. &darr; </strong> 
+            </p>
+            <div class="project2-pdf">
+                <a href="Archlinux Final.pdf" target="_blank">Step-by-step manual on how to install the Arch Linux OS using a USB boot device</a>
+            </div>
+            </section>
+            <!-- Project 3 -->
+            <section id="project3">
+            <h2>Project 3</h2>
+            <p>For my Motion Graphic and Visual Effect Design 1 course, I made a video for the COMO Police department. The video is a commerical for the DEI program. For this project I used Adobe After Effects. I also had to write a script and do a voice over. This video showcases my skills and understanding with Adobe After Effects</p>
+            <div class="project3-video">
+            <video controls>
+            <source src="HaydenCox5.mp4" type="video/mp4">
+            </video>
+            </div>
+            </section>
     </main>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2023 Hayden Cox | Email: hck8k@umsystem.edu</p>
-    </footer>
+        <!-- Email icon -->
+       <img src="email.png" alt="Email Icon"class="footer-icon"style="width: 30px; height: auto;">
+       <!-- Email address -->
+       <a href="mailto:hck8k@umsystem.edu">hck8k@umsystem.edu</a>
+        <!-- Phone icon -->
+        <img src="phone.png" alt="Phone Icon" class="footer-icon" style="width: 30px; height: auto;">
+        <a href="callto:816-123-1234">816-123-1234</a>
+   </footer>
 </body>
 </html>
