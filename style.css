@@ -157,3 +157,64 @@ video {
 section {
     padding: 100px; 
 }
+
+#contact {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label,
+#contact input,
+#contact textarea {
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+#contact input[type="submit"] {
+    width: 100px;
+    align-self: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tbody tr:first-child {
+    background-color: #08ccfc;
+}
+
+tbody tr:last-child {
+    background-color: #08ccfc;
+}
+
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
