@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a>
+                <ul>
+                    <li><a href="project.html#project1">Database Project</a></li> 
+                    <li><a href="project.html#project2">UNIX OS Project</a></li>
+                    <li><a href="project.html#project3">Motion Graphic Project</a></li>
+                </ul>
+            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Header Section -->
+    <header>
+        <h1>Hayden  Cox's Portfolio Website</h1>
+
+    <!-- Main Content Section -->
+    <main>
+       <!-- Contact Form -->
+        <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:hck8k@umsystem.edu?subject=Portfolio/Professional Website Contact" method="post" enctype="text/plain">
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" required><br>
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+        </section> 
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+         <!-- Email icon -->
+        <img src="email.png" alt="Email Icon"class="footer-icon"style="width: 30px; height: auto;">
+        <!-- Email address -->
+        <a href="mailto:hck8k@umsystem.edu">hck8k@umsystem.edu</a>
+         <!-- Phone icon -->
+         <img src="phone.png" alt="Phone Icon" class="footer-icon" style="width: 30px; height: auto;">
+         <a href="callto:816-123-1234">816-123-1234</a>
+    </footer>
+</body>
+</html>
