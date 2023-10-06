@@ -3,7 +3,7 @@ header {
     font-family: 'Sans-Serif', sans-serif; 
 }
 h1 {
-    color: #007EE0;
+    color: #08ccfc;
     text-align: center; 
     display: flex;
     justify-content: center; 
@@ -22,7 +22,7 @@ h2 {
 
 .first-paragraph::first-letter {
     font-size: 130%;
-    color: #007EE0;
+    color: #08ccfc;
     font-weight: bold;
     margin-right: 4px;
 }
@@ -101,3 +101,59 @@ video {
     transform: scale(1.2); 
 }
 
+#project1 {
+    text-align: center;
+}
+
+.project1-images {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.project1-images figure {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+}
+
+.project1-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .project1-images figure {
+        width: calc(100% - 20px);
+    }
+}
+
+#project2 {
+    text-align: center;
+}
+
+.project2-pdf a {
+    color: #08ccfc;
+    text-decoration: none;
+}
+.project2-pdf a:hover {
+    text-decoration: underline;
+}
+
+#project3 {
+    text-align: center;
+}
+
+.project3-video {
+    display: flex;
+    justify-content: center;
+}
+
+.project3-video video {
+    width: 50%; 
+    height: auto;
+}
+
+section {
+    padding: 100px; 
+}
